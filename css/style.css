@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: green;
+}
+
+.bg-box {
+    width: 800px;
+    height: 600px;
+    border: 2px solid green;
+    background:
+        url('../img/pole') no-repeat center 40% / 70% 70%,
+        url('../img/lamp-png-34914.png') repeat-x top center / auto 40px,
+
+        url('../img/Izhak') repeat-y left center / 50px auto,
+
+        url('../img/ponchik.png') repeat-y right center / 50px auto,
+        
+        url('../img/green-png-44873.png') repeat-x bottom center / auto 50px; 
+}
